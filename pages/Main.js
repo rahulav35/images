@@ -14,10 +14,11 @@ function Main() {
 
   return (
     <div className={newpage.newpagediv}>
-      {array.map((singledata) => {
+      {array.map((singledata, i) => {
         console.log(singledata);
         return (
           <User
+            key={i}
             albumId={singledata.albumId}
             id={singledata.id}
             title={singledata.title}
