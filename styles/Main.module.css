@@ -1,0 +1,13 @@
+.newpagediv{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    outline: 1px solid black;
+    border-radius: 20px; 
+    background-color: red;
+    
+}
